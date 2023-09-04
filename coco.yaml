@@ -1,0 +1,13 @@
+# COCO 2017 dataset http://cocodataset.org
+train: coco/train2017
+val: coco/val2017
+test: coco/test2017
+anno_path: coco/annotations/instances_val2017.json
+
+# number of classes
+nc: 8
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+
+# class names
+names: [ 'creatures', 'fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
